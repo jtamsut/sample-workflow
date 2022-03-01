@@ -10,4 +10,4 @@ jobs:
           node-version: '16'
       - run: npm install -g bats
       - run: bats -v
-      - run: echo "ACTION COMPLETE"
+      - run: echo "console.log('test!')" | node
